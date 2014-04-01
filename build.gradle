@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     compile group: 'com.google.guava', name: 'guava', version: '16.0.1'
-    compile 'com.google.code.findbugs:jsr305:2.0.2'
+    compile 'com.google.code.findbugs:jsr305:2.0.3'
 }
 // Findbugs will run all visitors when not explicit set any other
 findbugs {
