@@ -4,6 +4,8 @@ apply plugin: 'findbugs'
 version = '1.0'
 group = 'de.macsystems.guava'
 
+sourceCompatibility = 1.6
+
 repositories {
     mavenCentral()
 }
