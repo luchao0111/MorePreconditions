@@ -4,15 +4,13 @@ apply plugin: 'findbugs'
 version = '1.0'
 group = 'de.macsystems.guava'
 
-sourceCompatibility = 1.6
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile group: 'com.google.guava', name: 'guava', version: '16.0.1'
-    compile 'com.google.code.findbugs:jsr305:2.0.3'
+    compile group: 'com.google.guava', name: 'guava', version: '18.0'
+    compile 'com.google.code.findbugs:jsr305:3.0.0'
 }
 // Findbugs will run all visitors when not explicit set any other
 findbugs {
