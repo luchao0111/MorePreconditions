@@ -6,8 +6,8 @@ group = 'de.macsystems.guava'
 
 allprojects {
     apply plugin: 'java'
-    sourceCompatibility = 1.7
-    targetCompatibility = 1.7
+    sourceCompatibility = 1.6
+    targetCompatibility = 1.6
 }
 
 repositories {
